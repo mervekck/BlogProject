@@ -1,0 +1,12 @@
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\BlogProject.Domain.csproj.AssemblyReference.cache
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\BlogProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\BlogProject.Domain.AssemblyInfoInputs.cache
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\BlogProject.Domain.AssemblyInfo.cs
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\BlogProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\bin\Debug\net7.0\BlogProject.Domain.deps.json
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\bin\Debug\net7.0\BlogProject.Domain.dll
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\bin\Debug\net7.0\BlogProject.Domain.pdb
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\BlogProject.Domain.dll
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\refint\BlogProject.Domain.dll
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\BlogProject.Domain.pdb
+C:\Users\merve\Desktop\BlogProject\BlogProject.Domain\obj\Debug\net7.0\ref\BlogProject.Domain.dll

@@ -1,0 +1,17 @@
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProject.Infrastucture.csproj.AssemblyReference.cache
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProject.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProject.Infrastucture.AssemblyInfoInputs.cache
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProject.Infrastucture.AssemblyInfo.cs
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProject.Infrastucture.csproj.CoreCompileInputs.cache
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\bin\Debug\net7.0\BlogProject.Infrastucture.deps.json
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\bin\Debug\net7.0\BlogProject.Infrastucture.runtimeconfig.json
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\bin\Debug\net7.0\BlogProject.Infrastucture.dll
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\bin\Debug\net7.0\BlogProject.Infrastucture.pdb
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\bin\Debug\net7.0\BlogProject.Domain.dll
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\bin\Debug\net7.0\BlogProject.Domain.pdb
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProj.386F345E.Up2Date
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProject.Infrastucture.dll
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\refint\BlogProject.Infrastucture.dll
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProject.Infrastucture.pdb
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\BlogProject.Infrastucture.genruntimeconfig.cache
+C:\Users\merve\Desktop\BlogProject\BlogProject.Infrastucture\obj\Debug\net7.0\ref\BlogProject.Infrastucture.dll

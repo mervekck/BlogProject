@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Gfxmedia</title>
+	<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+	<link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+
+	<script type="text/javascript" src="~/js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="~/js/jquery.easing.js"></script>
+
+	<!-- Start: Superfish scripts -->
+	<script type="text/javascript" src="~/js/hoverIntent.js"></script>
+	<script type="text/javascript" src="~/js/superfish.js"></script>
+	<script type="text/javascript">
+		// initialise plugins
+		jQuery(function () {
+			jQuery('ul.sf-menu').superfish();
+		});
+
+		$(document).ready(function () {
+
+			$('div.post-img').hover(function () {
+				$(this).find('div.post-info').animate({ marginTop: "-70px", opacity: 1 }, 200);
+				$(this).find('div.post-date').animate({ marginLeft: "-75px", opacity: 1 }, 200);
+			},
+				function () {
+					$(this).find('div.post-info').animate({ marginTop: "0px", opacity: 1 }, 200);
+					$(this).find('div.post-date').animate({ marginLeft: "0px", opacity: 1 }, 200);
+				});
+		});
+	</script>
+
+
+</head>
+<body>
+
+	<!-- start: Wrapper -->
+	<div id="Wrapper">
+
+		<!-- start: header -->
+		<div id="header">
+			<div class="container_12">
+				<div class="grid_7">
+					<!-- start: logo -->
+					<div class="logo">
+						<a href="#">Logo</a>
+					</div>
+					<!-- end: logo -->
+				</div>
+				<div class="grid_5">
+					<!-- start: topright -->
+					<div class="slogan">
+						<h3>CALL NOW: (510) 405-1026</h3>
+						<p><img src="~/images/email.gif" alt="email" /> email me : info@domainname.com</p>
+						<p>Available from monday to friday </p>
+					</div>
+					<!-- end: topright -->
+				</div>
+			</div>
+		</div>
+		<!-- end: header -->
+
+		<div class="clear">&nbsp;</div>
+
+		<!-- start: menu -->
+		<div class="container_12">
+			<div id="menu">
+				<ul class="sf-menu">
+					<li>
+						<a href="index-2.html">Home</a>
+						<ul>
+							<li><a href="alternate.html">Alternate Slider</a></li>
+						</ul>
+					</li>
+					<li><a href="aboutus.html">About</a></li>
+					<li>
+						<a href="Services.html">Services</a>
+						<ul>
+							<li><a href="#">Web Designing</a></li>
+							<li class="current"><a href="#">Graphics</a></li>
+							<li><a href="#">SEO Modules</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="portfolio.html">Portfolio</a>
+						<ul>
+							<li><a href="#aa">Web Designing</a> </li>
+							<li class="current"><a href="#">Graphics</a></li>
+							<li><a href="#">SEO Modules</a></li>
+						</ul>
+					</li>
+					<li class="current"> <a href="Blog.html">Blog</a> </li>
+					<li> <a href="contactus.html">Contact</a> </li>
+				</ul>
+			</div>
+		</div>
+		<!-- End: menu -->
+
+		<div class="clear">&nbsp;</div>
+
+		<!-- start: subheader -->
+		<div class="container_12">
+			<div id="subheader">
+				<div class="grid_7">
+					<h2>Blog Graphic Design</h2>
+				</div>
+				<div class="grid_5">
+					<p> We started in 2006 with a simple idea - make awesome websites! Today we operate Marketplaces. </p>
+				</div>
+			</div>
+		</div>
+		<!-- End: Subheader -->
+
+		<div class="clear">&nbsp;</div>
+
+		<!-- start: middlecontent -->
+		<div class="midcontent">
+			<div class="container_12">
+				<div class="grid_3">
+					<!-- start: sidebar -->
+					<div id="sidebar">
+						<!-- start: newlist -->
+						@* <h2>News and Events</h2>
+						<ul class="newslist">
+							<li><span>12 Dec 2009 | 0 comments</span> <h5><a href="#">Duis nec porttitor lorem</a></h5> Mauris et nisi urna nonfaucibus magna. Integer lacus ante then ullamcorper ut vulputate.. </li>
+							<li><span>18 Dec 2009 | 5 comments</span> <h5><a href="#">Aenean interdum</a></h5> Vestibulum ante ipsum primis in faucibus orci luctus ultrices ante posuere.</li>
+							<li><span>4 Jan 20010 | 2 comments</span> <h5><a href="#">Integer vitae nisl</a></h5> Duis volutpat ligula laoreet orci lectus placerat Curabitur lectus malesuada pulvinar.</li>
+						</ul> *@
+						<!-- end: newlist -->
+						@* <h2>Categories</h2> *@
+						@* <ul class="submenu">
+						<li class="current"><a href="#1" title="Link 1">About Us</a></li>
+						<li><a href="#2" title="Link 2">Where we are</a></li>
+						<li><a href="#3" title="Link 3">Who we are</a></li>
+						<li><a href="#4" title="Link 4">About Management</a></li>
+						<li><a href="#5" title="Link 5">About Company</a></li>
+						</ul> *@
+						@await Component.InvokeAsync("Category")
+						<br />
+					</div>
+					<!-- end: sidebar -->
+				</div>
+
+
+
+				<!-- start: Rightpart -->
+				<div class="grid_9">
+					<!-- start: content -->
+					<div class="content">
+						@RenderBody()
+
+
+					</div>
+				</div>
+				<!-- end: Rightpart -->
+
+			</div>
+		</div>
+		<!--End middlecontent-->
+
+		<div class="clear">&nbsp;</div>
+
+		<!-- start: footer -->
+		<div id="footer">
+			<div class="container_12">
+				<p class="alignleft">&copy; Copyright 2010 yourdomain.com All rights reserved &nbsp;<a href="#">www.domainname.com</a></p>
+				<p class="alignright">Designed and developed by system32</p>
+			</div>
+		</div>
+		<!-- end: copyright -->
+
+	</div>
+	<!-- end: footer -->
+</body>
+</html>

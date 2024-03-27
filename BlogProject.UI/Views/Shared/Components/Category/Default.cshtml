@@ -1,0 +1,17 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@* Category List(ul) yapılır ve layoutta çağırılır *@
+
+@using BlogProject.Domain.Entities.Concrete
+@model List<Category>
+
+<h2>Category List</h2>
+<ul>
+    @foreach (var category in Model)
+    {
+        <li>@category.Name</li>
+        <li>@category.Description</li>
+    }
+</ul>

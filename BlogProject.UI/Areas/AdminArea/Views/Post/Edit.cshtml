@@ -1,0 +1,72 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using BlogProject.UI.Areas.AdminArea.Models.VM
+@model PostEditVM
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+<div id="content">
+    <div class="col-md-12 top-20 padding-0">
+        <div class="col-md-12">
+            <div class="panel">
+                <div class="row">
+                    <div class="col-md-4">
+                        <form asp-action="Edit" asp-controller="Post" method="post" enctype="multipart/form-data">
+                            <div class="mb-3">
+                                <label asp-for="Id" class="form-label">ID</label>
+                                <input type="hidden" asp-for="Id" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Title" class="form-label">Title</label>
+                                <input asp-for="Title" class="form-control" placeholder="Enter post's title" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Body" class="form-label">Body</label>
+                                <textarea asp-for="Body" class="form-control" rows="3" placeholder="Enter post's Body"></textarea>
+                                <span asp-validation-for="Body" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Summary" class="form-label">Summary</label>
+                                <input asp-for="Summary" class="form-control" placeholder="Enter post's Summary" />
+                                <span asp-validation-for="Summary" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="AuthorId" class="control-label"></label>
+                                <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.Author">
+                                    <option value="">-- Select Author --</option>
+                                </select>
+                                <a href="@Url.Action("Add", "Author")" class="btn btn-info">Author Create New</a>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="CategoryId" class="control-label"></label>
+                                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Category">
+                                    <option value="">-- Select Category --</option>
+                                </select>
+                                <a href="@Url.Action("Add", "CategoryManager")" class="btn btn-info">Category Create New</a>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Picture_"></label>
+                                <input type="file" name="Picture_" class="form-control" />
+                                <span asp-validation-for="Picture_" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-primary">Save</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+                <div>
+                    <a href="/AdminArea/Post/Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

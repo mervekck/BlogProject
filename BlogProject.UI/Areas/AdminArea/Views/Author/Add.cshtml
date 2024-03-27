@@ -1,0 +1,56 @@
+﻿@using BlogProject.UI.Areas.AdminArea.Models.VM
+@model AuthorAddVM
+@{
+    ViewData["Title"] = "Create Author";
+    
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+<div id="content">
+    <div class="col-md-12 top-20 padding-0">
+        <div class="col-md-12">
+            <div class="panel">
+                <div class="row">
+                    <div class="col-md-4">
+                        <form asp-action="Add" asp-controller="Author" method="post">
+                            <div class="mb-3">
+                                <label asp-for="Name" class="form-label">Name</label>
+                                <input asp-for="Name" class="form-control" placeholder="Enter author's name" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Biography" class="form-label">Biography</label>
+                                <textarea asp-for="Biography" class="form-control" rows="3" placeholder="Enter author's biography"></textarea>
+                                <span asp-validation-for="Biography" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Email" class="form-label">Email</label>
+                                <input asp-for="Email" type="email" class="form-control" placeholder="Enter author's email" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="WebsiteUrl" class="form-label">Website URL</label>
+                                <input asp-for="WebsiteUrl" class="form-control" placeholder="Enter author's website URL" />
+                                <span asp-validation-for="WebsiteUrl" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="DateOfBirth" class="form-label">Date of Birth</label>
+                                <input asp-for="DateOfBirth" class="form-control" type="date" />
+                                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-primary">Create</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+
+                <div>
+                    <a href="/AdminArea/Author/Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
