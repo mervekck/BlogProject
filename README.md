@@ -1,4 +1,5 @@
-Home Index sayfasında Categoryler listelenmiştir ve makaleler gösterilmiştir.
+Home Index sayfasında Kategoriler listelenmiştir ve makaleler gösterilmiştir.
+//TODO:Kategori seçimi yapılarak makaleler ona göre listelenmeli
 ![image](https://github.com/mervekck/BlogProject/assets/75758070/22837d1d-7939-424f-9ce2-110380cfa2a8)
 Admin için ayrı bir template giydirilmiştir.
 Kategoriler için crud işlemleri yapılmıştır
