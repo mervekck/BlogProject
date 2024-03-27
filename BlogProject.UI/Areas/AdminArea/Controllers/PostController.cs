@@ -55,6 +55,7 @@ namespace BlogProject.UI.Areas.AdminArea.Controllers
                 {
                     Post post = mapper.Map<Post>(vm);
                     post.Status = Domain.Enums.Status.Active;
+                    post.CreatedDate= DateTime.Now;
                     if (pictureFile != null && pictureFile.Length > 0)
                     {
                         using (MemoryStream ms = new MemoryStream())
