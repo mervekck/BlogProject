@@ -1,5 +1,5 @@
 Home Index sayfasında Categoryler listelenmiştir ve makaleler gösterilmiştir.
-![image](https://github.com/mervekck/BlogProject/assets/75758070/1905bb39-0a04-4760-ad51-89810453f34c)
+![image](https://github.com/mervekck/BlogProject/assets/75758070/22837d1d-7939-424f-9ce2-110380cfa2a8)
 Admin için ayrı bir template giydirilmiştir.
 Kategoriler için crud işlemleri yapılmıştır
 ![image](https://github.com/mervekck/BlogProject/assets/75758070/787a3afb-f5e3-4cd5-a2b1-c494e353e83b)
